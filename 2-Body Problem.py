@@ -54,7 +54,7 @@ planet2_plt, = ax.plot(p2x_sol, p2y_sol, p2z_sol, 'red', label='Planet 2', linew
 planet1_dot, = ax.plot([p1x_sol[-1]], [p1y_sol[-1]], [p1z_sol[-1]], 'o', color='green', markersize=6)
 planet2_dot, = ax.plot([p2x_sol[-1]], [p2y_sol[-1]], [p2z_sol[-1]], 'o', color='red', markersize=6)
 
-ax.set_title("The 3-Body Problem")
+ax.set_title("The 2-Body Problem")
 ax.set_xlabel("x")
 ax.set_ylabel("y")
 ax.set_zlabel("z")
